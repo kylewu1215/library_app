@@ -4,8 +4,8 @@ How to set up the library app:
 
 Ruby version: 3.0.1
 
-1. Migrate database using the command: rails db:migrate
-2. Run server on localhost:3000 using the command: rails s
+1. Migrate database using the "rails db:migrate" command
+2. Run server using the "rail s" command on http:localhost:3000 
 
 
 --------------------------------------------------------------------------
