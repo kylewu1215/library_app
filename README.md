@@ -1,33 +1,26 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+How to set up the library app: 
 
-Things you may want to cover:
+Ruby version: 3.0.1
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+1. Migrate database using the command: rails db:migrate
+2. Run server on localhost:3000 using the command: rails s
 
 
-I created 2 test accounts:
+--------------------------------------------------------------------------
 
-test1@gmail.com
-123456
+For the CRUD functions, I created 2 dummy accounts for testing purposes:
 
-test2@yahoo.com
-123456
+Account 1:
+Email: test1@gmail.com
+Password: 123456
+
+
+Account 2:
+Email: test2@yahoo.com
+Password: 123456
+
+--------------------------------------------------------------------------
+
+My app is set up where only authenticated authors can create their own book entries. A given author can only see and perform CRUD actions on the books he/she created.
