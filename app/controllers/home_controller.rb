@@ -3,6 +3,6 @@ class HomeController < ApplicationController
   end
 
   def about
-    @about_me = "We allow authenticated users to create new book entries, upload cover images and add citation."
+    @about_me = "We allow authenticated users to create new book entries, upload cover images and add citations."
   end
 end
