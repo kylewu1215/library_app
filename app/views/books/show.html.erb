@@ -1,0 +1,26 @@
+<div class="jumbotron">
+  <h1 class="display-4">
+    <%= @book.title %>
+  </h1>
+
+  <div style="width:400px; height:auto">
+    <%= image_tag(@book.image, style:'width:100%') if @book.image.attached?%>
+  </div>
+
+  <br/>
+  <p class="lead">
+    <%= @book.publication_year %> |
+    <%= @book.location %> | 
+    <%= @book.citation %>
+  </p>
+
+  <%= link_to 'Edit', edit_book_path(@book), class:'btn btn-secondary' %> 
+
+  <%= link_to 'Delete', @book, method: :delete, data: { confirm: 'Are you sure?' }, class: "btn btn-danger" %>
+
+  <%= link_to 'Back', books_path, class:'btn btn-dark' %>
+
+</div>
+
+
+
