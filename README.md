@@ -23,4 +23,4 @@ Password: 123456
 
 --------------------------------------------------------------------------
 
-My app is set up where only authenticated authors can create their own book entries. A given author can only see and perform CRUD actions on the books he/she created.
+My app is set up where only authenticated authors can create their own book entries. Authenticated authors can only see and perform CRUD actions on the books they created.
